@@ -23,7 +23,8 @@ streamlit run app.py
 ```
 
 จากนั้นเปิดเบราว์เซอร์ไปที่ `http://localhost:8501`
-
+- #https://appbegin-hyzejtmd2fapplthharx6eh.streamlit.app/
+- 
 ## ฟีเจอร์
 
 - **แท็บอัปโหลดวิดีโอ**: อัปโหลดไฟล์วิดีโอ (mp4/avi/mov/mkv) ระบบจะบันทึกไว้ในโฟลเดอร์ `upload/` แล้วรันตรวจจับ+ติดตาม object พร้อมแสดงผลแบบเฟรมต่อเฟรม พร้อม progress bar
@@ -36,4 +37,4 @@ streamlit run app.py
 - ปุ่ม "หยุด" ของเว็บแคมในเวอร์ชันนี้ใช้ checkbox ธรรมดา ซึ่ง Streamlit จะประมวลผลจริงหลังจากลูปปัจจุบันจบ — หากต้องการปุ่มหยุดที่ตอบสนองทันทีระดับ production แนะนำให้ปรับไปใช้ไลบรารี `streamlit-webrtc` แทน `cv2.VideoCapture` ตรงๆ
 - หากต้องการ deploy ขึ้น Streamlit Community Cloud ฟีเจอร์เว็บแคมจะใช้ไม่ได้ เพราะเซิร์ฟเวอร์ cloud ไม่มีกล้อง ต้องใช้ `streamlit-webrtc` ที่ดึงภาพจากกล้องฝั่ง browser ของผู้ใช้แทน
 
-- #https://appbegin-hyzejtmd2fapplthharx6eh.streamlit.app/
+
